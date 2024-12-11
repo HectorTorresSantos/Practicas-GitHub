@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios_Actividad4</title>
+</head>
+<body>
+    <h2>Búsqueda de Cámaras de Fotos</h2>
+    <form action="/buscar-camaras" method="GET">
+        <label for="marca">Marca:</label>
+        <select id="marca" name="marca">
+            <option value="">Todas</option>
+            <option value="canon">Canon</option>
+            <option value="nikon">Nikon</option>
+            <option value="sony">Sony</option>
+            <option value="fujifilm">Fujifilm</option>
+            <option value="panasonic">Panasonic</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="tipo">Tipo de cámara:</label>
+        <select id="tipo" name="tipo">
+            <option value="">Cualquiera</option>
+            <option value="dslr">DSLR</option>
+            <option value="mirrorless">Mirrorless</option>
+            <option value="compacta">Compacta</option>
+            <option value="bridge">Bridge</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="precio-min">Precio mínimo :</label>
+        <input type="number" id="precio-min" name="precio-min" min="0" step="0.01">
+        <br>
+        <br>
+
+        <label for="precio-max">Precio máximo :</label>
+        <input type="number" id="precio-max" name="precio-max" min="0" step="0.01">
+        <br>
+        <br>
+
+        <label for="megapixeles">Resolución mínima (MP):</label>
+        <input type="number" id="megapixeles" name="megapixeles" min="0" step="1">
+        <br>
+        <br>
+
+        <label for="video">Soporte de vídeo 4K:</label>
+        <input type="checkbox" id="video" name="video" value="4k">
+        <br>
+        <br>
+
+        <button type="submit">Buscar</button>
+    </form>
+</body>
+</html>
