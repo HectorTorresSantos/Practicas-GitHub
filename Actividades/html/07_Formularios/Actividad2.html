@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios_Actividad2</title>
+</head>
+<body>
+    <h1>Personalize su altavoz</h1>
+    <select name="modelo">
+        <option value="" aria-label="modelo" disabled selected>¿Qué modelo?</option>
+        <option value="1">R4</option>
+        <option value="2">R5</option>
+        <option value="3">SR1</option>
+    </select>
+    <br>
+    <form>
+        <label for="powerRange">Potencia Maxima:</label> 
+        <input type="range" min="50" max="100" value="75">
+        <br>
+        <label for="bluetoothOption">¿Bluetooth?</label>
+        <select id="bluetoothOption" name="bluetoothOption">
+            <option value="si">Si</option>
+            <option value="no">Nop</option>
+        </select>
+        <br>
+        <label for="colorPick">Color:</label>
+        <input type="color" id="colorPick" name="colorPick" value="#ff0000">
+    </form>    
+</body>
+</html>
