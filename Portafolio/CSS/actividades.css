@@ -1,7 +1,53 @@
-.container-html{
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        text-align: center;
+    }
+    .container {
+        width: 60%; 
+        max-width: 800px; 
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    .activities-html {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 20px;
+    }
+    .activities-css {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 20px;
+    }
+    .activity {
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        width: 30%;
+        text-align: center;
+    }
+    a {
+        text-decoration: none;
+        color: #007bff;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
 
-}
+    html {
+        scroll-behavior: smooth;
+    }
 
-.container-css{
-
-}
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
